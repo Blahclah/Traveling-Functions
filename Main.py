@@ -9,9 +9,27 @@ def Intro():
     print("3: Europe")
     print("4: Africa")
     print("5: Asia")
-    print("6: Antarctic")
+    print("6: Antarctica")
+    print("7: Australia")
         
-    continent = int(input("Where do you want to go? "))
+    continent = input("Where do you want to go? ")
+    if(continent == 'North America'):
+        NorthAmerica()
+    elif(continent == 'South America'):
+        SouthAmerica()
+    elif(continent == 'Europe'):
+        Europe()
+    elif(continent == 'Africa'):
+        Africa()
+    elif(continent == 'Asia'):
+        Asia()
+    elif(continent == 'Antarctica'):
+        Antarctica()
+    elif(continent == 'Australia'):
+        Australia()
+    else:
+        print("Invalid. Not a choice.")
+        Intro()
 
     
     
@@ -66,13 +84,25 @@ def Antarctic():
     i =0
     while(i==0):
         print("YOU DIE")
+def Australia():
+
+    print("YOU BURN TO DEATH")
+
+
+def NewYork():
+    print("You have have to self corintine")
+
+    rount = input("Do you self corintine? Y or N?")
+
+    if(route == 'Y'):
+        print("You gain weight and die of diebetas!")
+    elif(route == 'N'):
+        print 
 
 
 
 Intro()
 
-if(continent == 1):
-    NorthAmerica()
 
 
 
